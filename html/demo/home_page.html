@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head><title>About Me</title></head>
+<body>
+  <header><h1>About Me</h1></header>
+  <header><h2>CS400</h2></header>
+  <marquee direction="right" height="100" width="700" bgcolor="white" ><font size = "3">I like outdated html tags!</font></marquee>
+  <br>
+  
+  <img src="myphoto.png" alt="no photo yet" width="700" height="500" />
+  <br>
+	
+    <button id="my_button_id" onclick="change()">CHANGE</button>
+    
+
+		  <script>
+	  function change(){
+	  	elem = document.getElementById("my_button_id");
+		if(elem.innerHTML == "CHANGE") elem.innerHTML = "CHANGE AGAIN";
+		else elem.innerHTML = "CHANGE";  
+	  }
+  </script>
+		
+    <br>
+  <h2>My favorite bevarages</h2>
+  <h3>In no particular order
+  <ul>
+	  <li>Fresh Lime Soda (salt)</li>
+	  <li>Cherry Coke</li>
+	  <li>Peach Fanta</li>
+	  <li>Grape Fanta</li>
+	  <li>Masala Pepsi</li> </ul>
+  <img src="soda.png" alt = "no photo yet" width = "700" height = "400" />
+  <h2>Try something new!</h2>
+  <table border = "1"  >
+	  <tbody>
+		  <tr>
+			  <th>Name of drink
+			  </th>
+			  <th> Type of drink
+			  </th>
+			  <th>Description
+			  </th>
+		  </tr>
+		  <tr>
+			  <td>Jal Jeera
+			  </td>
+			  <td>Non soda
+			  </td>
+			  <td>Literally Spicy Water, but it's very refreshing!
+			  </td>
+		  </tr>
+		  <tr>
+			  <td>Ramune
+			  </td>
+			  <td>Fruit/Sweet Soda
+			  </td>
+			  <td>Famous for its marble cap soda bottle, you can buy one from Ginger Root!
+			  </td>
+
+		  </tr>
+  </table>
+  <a href = "https://en.wikipedia.org/wiki/Drink">Learn more about your favorite drink here!</a> 
+  <footer>My least favorite city: Columbus, Ohio</footer>  
+  <footer>Created on 5/1/2020</footer>
+</body>
+</html>
+
